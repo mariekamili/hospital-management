@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://www.netbeans.org/ns/project/1">
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
             <name>Hospital Management System</name>
+=======
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>hospitalproject</name>
+>>>>>>> 8cca7259f105d4592924208a6e490919f283a92a
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

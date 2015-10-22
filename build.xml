@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- You may freely edit this file. See commented blocks below for -->
 <!-- some examples of how to customize the build. -->
@@ -9,6 +10,10 @@
 <!-- in the project's Project Properties dialog box.-->
 <project name="Hospital_Management_System" default="default" basedir=".">
     <description>Builds, tests, and runs the project Hospital Management System.</description>
+=======
+<?xml version="1.0" encoding="UTF-8"?><!-- You may freely edit this file. See commented blocks below for --><!-- some examples of how to customize the build. --><!-- (If you delete it and reopen the project it will be recreated.) --><!-- By default, only the Clean and Build commands use this build script. --><!-- Commands such as Run, Debug, and Test only use this build script if --><!-- the Compile on Save feature is turned off for the project. --><!-- You can turn off the Compile on Save (or Deploy on Save) setting --><!-- in the project's Project Properties dialog box.--><project name="hospitalproject" default="default" basedir=".">
+    <description>Builds, tests, and runs the project hospitalproject.</description>
+>>>>>>> 8cca7259f105d4592924208a6e490919f283a92a
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -51,14 +56,23 @@
       -init-macrodef-junit:     defines macro for junit execution
       -init-macrodef-debug:     defines macro for class debugging
       -init-macrodef-java:      defines macro for class execution
+<<<<<<< HEAD
       -do-jar:                  JAR building
+=======
+      -do-jar-with-manifest:    JAR building (if you are using a manifest)
+      -do-jar-without-manifest: JAR building (if you are not using a manifest)
+>>>>>>> 8cca7259f105d4592924208a6e490919f283a92a
       run:                      execution of project 
       -javadoc-build:           Javadoc generation
       test-report:              JUnit report generation
 
     An example of overriding the target for project execution could look like this:
 
+<<<<<<< HEAD
         <target name="run" depends="Hospital_Management_System-impl.jar">
+=======
+        <target name="run" depends="hospitalproject-impl.jar">
+>>>>>>> 8cca7259f105d4592924208a6e490919f283a92a
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
